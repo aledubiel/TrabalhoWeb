@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,35 +8,57 @@
 
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin: 20px;
-    
+
 }
-nav{
+
+nav {
     text-align: end;
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     margin-right: 20px;
-    
-    
+
+
 }
 
-.bugatti{
+.bugatti {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: black;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;  
-    
+    padding: 50px;
+    flex-wrap: wrap;
+
 }
-.bugatti img{
+
+.bugatti h2,
+p {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;    
+ }
+
+ p {
+    width: 30%;
+}
+
+
+.bugatti img {
     border-style: solid;
+    margin-right: 10%;
     border-color: white;
+    width: 600px;
+
+}
+
+.video {
+    width: 100%;
+    border-style: solid;
+
 }
