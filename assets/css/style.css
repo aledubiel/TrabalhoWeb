@@ -40,7 +40,6 @@ a:hover {
     text-decoration: underline; 
 }
 
-
 .bugatti {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,8 +47,6 @@ a:hover {
     background-color: black;
     padding: 50px;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-
-
 }
 
 .bugatti strong,
@@ -61,7 +58,6 @@ p {
 
 strong {
     font-size: 40px;
-
 }
 
 .bugatti img {
@@ -95,13 +91,13 @@ strong {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 50px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 .quemsomos img{
     width: 500px;
     border-style: solid;    
 }
-
+/*
 .garantia, .garantia2{
     color: white;
     background-color: black;
@@ -110,7 +106,7 @@ strong {
     padding: 10px;
     align-items: center;
     padding: 1.5%;
-    
+
 }
 .garantia img{
 
@@ -124,6 +120,7 @@ strong {
     border-style: solid;
     background-color: black;
 }
+    */   
 .carros1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -131,7 +128,6 @@ strong {
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 1.5%;
-
     
 }
 .carros1 img{
@@ -156,8 +152,7 @@ strong {
     align-items: center;
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 1.5%;
- 
+    padding: 1.5%; 
 }
 .carros2 img{
     width: 600px;
@@ -173,8 +168,6 @@ strong {
     background-color: white;
     color: black;
     font-weight: 700;
-    border: #333;
-    border-style: solid;
     padding-top: 20px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
@@ -185,16 +178,14 @@ strong {
 }
 input{
     height: 30px;
-    width: 100%;
-    justify-items: start;
+    width: 100%;    
     background-color: #a6a6a6; 
     border-radius: 5px;
     padding: 2px;
     font-size: 16px;
 }
 ::placeholder{
-    color: white;
-   
+    color: white;   
 }
 textarea{
     width: 100%;
@@ -214,14 +205,14 @@ form{
     margin: 10px;
 }
 iframe{
-    width: 400px;
+    width: 500px;
 }
+
 footer {
     background-color: #333;
     color: white;
     padding: 20px;
-    text-align: center;
-    position: relative;
+    text-align: center;    
     bottom: 0;
     width: 100%;
 }
