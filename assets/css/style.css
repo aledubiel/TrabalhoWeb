@@ -176,8 +176,40 @@ strong {
     border: #333;
     border-style: solid;
     padding-top: 20px;
-
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
+
+.form{
+    width: 100%;
+    
+}
+input{
+    height: 30px;
+    width: 100%;
+    justify-items: start;
+    background-color: #a6a6a6; 
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+}
+::placeholder{
+    color: white;
+   
+}
+textarea{
+    width: 100%;
+    background-color: #a6a6a6; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+label{
+    font-size: 18px;
+}
+#botao{
+    background-color: black;
+    color: white;
+}
+
 form{
     margin: 10px;
 }
