@@ -1,0 +1,275 @@
+/*Começando por aqui*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+       
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    position: sticky; 
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+body{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+nav {
+    text-align: end;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+nav a {
+    color: black; 
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline; 
+}
+
+.bugatti {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.bugatti strong,
+p {
+    text-align: justify;
+    color: white;
+    margin: 3%;
+}
+
+strong {
+    font-size: 40px;
+}
+
+.bugatti img {
+    border-style: solid;
+    border-color: white;
+    width: 600px;
+    width: 100%;
+}
+
+.carropreto img {
+    border-style: solid;
+    border-color: white;
+    width: 600px;
+    width: 100%;
+}
+
+.video {
+    width: 100%; 
+}
+
+.carropreto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.quemsomos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.quemsomos img{
+    width: 500px;
+    border-style: solid;    
+}
+ 
+.carros1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1.5%;
+    
+}
+.carros1 img{
+    width: 600px;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+}
+.sf90 {
+    margin: 10px;
+    border: 10px;
+}
+.rsetron {
+    margin: 10px;
+}
+.bmw {
+    margin: 10px;
+}
+.carros2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1.5%; 
+}
+.carros2 img{
+    width: 600px;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+}
+.faleconosco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    padding-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.form{
+    width: 100%;
+        
+}
+input{
+    height: 30px;
+    width: 100%;    
+    background-color: #a6a6a6; 
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+}
+::placeholder{
+    color: white;   
+}
+textarea{
+    width: 100%;
+    background-color: #a6a6a6; 
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2px;
+}
+label{
+    font-size: 18px;
+}
+#botao{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+form{
+    margin: 10px;
+}
+iframe{
+    width: 500px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;    
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    margin: 0 5px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-info p {
+    font-size: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
+/* Container do slider */
+.slider {
+    width: 100%;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+/* Configuração de cada slide */
+.slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+
+.slide-item {
+    width: 100%;  
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.slide-item img {
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    justify-items: center;
+    justify-content: center;
+}
+
+
